@@ -1,0 +1,82 @@
+body {
+    background-image:url('../img/mhd.jpg') ;
+    backdrop-filter: blur(8px);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+section{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  
+
+.flex-container > div {
+    background-color: none;
+    width: 350px;
+    text-align:center;
+    color: #f1f1f1;
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    margin: 15px;
+    color: aliceblue;
+    align-items: center;
+}
+
+a{
+    text-decoration-line: none;
+    color: rgb(255, 255, 255);
+}
+
+.more{
+    list-style: none;
+    color: white;
+}
+
+.imgr{
+    margin-top: 20px;
+    width: 300px;
+    height: 500px;
+}
+
+.menu{
+    height: 50px;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    text-shadow: 5px 5px 5px #000000;
+    
+}
+nav ul li {
+    margin-top: 15px;
+    float: left;
+}
